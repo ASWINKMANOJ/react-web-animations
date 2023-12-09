@@ -21,7 +21,7 @@ This React application demonstrates scroll animations using GSAP (GreenSock Anim
 1. Clone the repository:
 
    ```bash
-   https://github.com/ASWINKMANOJ/react-web-animations/scroll-trigger-gsap
+   https://github.com/ASWINKMANOJ/react-web-animations/tree/b31a71ed0b3534b03e9633658cc119a39ec6d1d2/scroll-trigger-gsap
    ```
 
 2. Install dependencies:
