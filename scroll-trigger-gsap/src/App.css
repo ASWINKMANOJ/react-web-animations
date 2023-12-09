@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.app2 {
+  padding: 0 20vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background: #ffd000;
+  border-radius: 100%;
+  opacity: 0;
+}
+
+.Red {
+  background-color: red;
+}
+
+.Blue {
+  background-color: blue;
+}
+
+.App-logo {
+  height: 40vmin;
+  transform: translateY(40px);
+  cursor: pointer;
+  opacity: 0;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.text {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.app3 {
+  height: 100vh;
+  padding: 0 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container {
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.beach {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  transform: scale(1.4);
+}
